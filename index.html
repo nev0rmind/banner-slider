@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script> 
+    $(document).ready(function(){
+      $('.logo-slider').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 4000, 
+          arrows: false,
+          dots: false,
+          pauseOnHover: false
+      });
+  });
+</script>
+<div class="page-width">
+    <div class="logo-container">
+      <section class="logo-slider slider">
+          <div class="slide">
+            <div class="flex">
+                <div class="slide-image-container bg-image first-slide">
+                    <div class="slide-text">
+                        <p>-6PM</p>
+                        <h1 class="heading">Reinventing Modern Marketing Techniques - How 6PM became Germany´s leading Streetwear Label</h1>
+                        <a href="" class="po-button">Artikel lesen</a>
+                    </div>
+                </div>         
+            </div>
+
+          </div>
+          <div class="slide">
+            <div class="flex">
+                <div class="slide-image-container bg-image second-slide">
+                    <div class="slide-text">
+                        <p>_mykraut</p>
+                        <h1 class="heading">How an optimized webshop based on customer data led to an exponential increase in conversion rate for mykraut  
+                        </h1>
+                        <a href="" class="po-button">Artikel lesen</a>
+                    </div>
+                </div>         
+            </div>
+
+          </div>
+          
+       </section>
+    </div>
+</div>
+
+    
+</body>
+
+
+</html>
+
